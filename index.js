@@ -1,14 +1,9 @@
-// need the const fs variable here
 const fs = require("fs");
-
-// need inquirer variable here
 const inquirer = require("inquirer");
-
-// need a markdown js file here
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
-// License function and  if/else section here 
+// License functionality
 function getLicense(value) {
     if (value === "GNU AGPLv3") {
         return "[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)";
@@ -27,7 +22,7 @@ function getLicense(value) {
     }
 }
 
-
+// Makes responses a requirement
 function validateInput(value) {
     if (value != "") {
         return true;
@@ -91,14 +86,6 @@ const questions = [
         type: "input",
         name: "contributing",
         message: "How can users contribute to your project.",
-        validate: validateInput,
-    },
-
-    // Tests
-    {
-        type: "input",
-        name: "tests",
-        message: "Please enter any testing instructions you would like to provide for this project.",
         validate: validateInput,
     },
 

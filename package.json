@@ -4,20 +4,20 @@
     "description": "When creating an open source project on GitHub, it is important to have a quality README.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": ""
+        "type": "git",
+        "url": "https://github.com/ALiteralWaffle/Module-9-README-Gen"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/ALiteralWaffle/Module-9-README-Gen/issues"
+        "url": "https://github.com/ALiteralWaffle/Module-9-README-Gen/issues"
     },
     "homepage": "https://github.com/ALiteralWaffle/Module-9-README-Gen",
     "dependencies": {
-      "inquirer": "^8.2.4"
+        "inquirer": "^8.2.4"
     }
-  }
+}
