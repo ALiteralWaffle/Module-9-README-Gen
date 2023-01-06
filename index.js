@@ -115,12 +115,11 @@ function writeToFile(fileName, data) {
     });
 }
 
-// Initializes app
 function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(JSON.stringify(data, null, " "));
         data.getLicense = getLicense(data.license);
-        writeToFile("./example/README.md", data);
+        writeToFile("./test/readme.md", data);
     });
 }
 
