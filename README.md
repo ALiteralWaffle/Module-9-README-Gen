@@ -18,4 +18,8 @@ N/A
 
 ## Application Info
 
+Example video
+https://drive.google.com/file/d/1LtOKvJMp4uGL1vGMXo9Pm13Nld8FWyp_/view
+
+Example image
 ![Example photo](https://user-images.githubusercontent.com/43278458/210902243-a289524d-34f4-4725-a235-a525ceeb7202.JPG)
